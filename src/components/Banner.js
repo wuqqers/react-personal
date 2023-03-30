@@ -2,7 +2,7 @@ import React from 'react';
 //images 
 import Image from '../assets/Kaya.webp';
 //icons
-import {FaGithub, FaYoutube, Fadribbble, FaDribbble, FaFacebook, FaInstagram} from 'react-icons/fa';
+import {FaGithub, FaYoutube, Fadribbble, FaDribbble, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 //type anim
 import {TypeAnimation} from 'react-type-animation'
 //mottion
@@ -69,11 +69,11 @@ const Banner = () => {
     {/* <span className='text-white mr-4'>Ben</span>
     <TypeAnimation sequence={[ 
       'Web Geliştiricisiyim', 2000,
-      'Web Tasarımcısıyım', 2000,
+      'Web Tasarım & Gelistirmecısıyım', 2000,
       'Şairim', 2000,
       'Oyuncuyum', 2000
     ]} speed={50}
-    className='text-dark'
+    className='text-gradient'
     wrapper='span'
     repeat={Infinity}
     /> */}
@@ -85,7 +85,7 @@ const Banner = () => {
      whileInView={'show'} 
      viewport={{once: false, amount:0.7}} 
   className='mb-8 max-w-lg mx-auto lg:mx-0'>
-    {/* <h2 className='text-dark'>Doğum ve Doğumla Gelen Sürpriz</h2> */}
+    {/* <h2 className='text-gradient'>Doğum ve Doğumla Gelen Sürpriz</h2> */}
      <p>9 Ocak 1999 tarihinde Bursa’nın Osmangazi ilçesinde Zübeyde Hanım Doğumevi’nde Cerebral Palsy tanısıyla dünyaya geldim. Cerebral Palsy’nin birçok sonucundan bendeki etkisi sağ tarafımı felçli bırakmasıydı. Bu yüzden küçük yaşta kaslarımı gevşetme amacıyla, ilkokul dönemime kadar birçok botoks tedavisi geçirdim. İlköğretimi Setbaşı İlköğretim Okulunda tamamladım...</p>
     </motion.p>
     <motion.div    
@@ -108,6 +108,9 @@ const Banner = () => {
       </a>
        <a href='https://github.com/wuqqers' target='_blank'>
         <FaGithub/>
+      </a>
+      <a href='https://www.linkedin.com/in/%C3%B6mer-kaya-ekici-350004142/' target='_blank'>
+        <FaLinkedin/>
       </a>
       <a href='https://www.instagram.com/wuqqers/' target='_blank'>
         <FaInstagram/>

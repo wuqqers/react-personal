@@ -95,6 +95,6 @@ box-shadow: 20px 20px 60px #424244,
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#fcff9e] to-[#008B8B] font-bold font-primary hover:from-[#fcff9eb0] hover:to-[#fcff9e];;
   }
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply py-8 lg:py-24 lg:flex lg:flex-col lg:justify-center h-auto min-h-[100vh];
   }
 }

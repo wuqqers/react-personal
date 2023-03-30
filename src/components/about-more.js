@@ -2,7 +2,7 @@ import React from 'react';
 //images 
 import Image from '../assets/Kaya.webp';
 //icons
-import {FaGithub, FaYoutube, Fadribbble, FaDribbble, FaFacebook, FaInstagram} from 'react-icons/fa';
+import {FaGithub, FaYoutube, Fadribbble, FaDribbble, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 //type anim
 import {TypeAnimation} from 'react-type-animation'
 //mottion
@@ -102,6 +102,9 @@ const aboutmore = () => {
       </a>
       <a href='https://github.com/wuqqers' target='_blank'>
         <FaGithub/>
+      </a>
+      <a href='https://www.linkedin.com/in/%C3%B6mer-kaya-ekici-350004142/' target='_blank'>
+        <FaLinkedin/>
       </a>
       <a href='https://www.instagram.com/wuqqers/' target='_blank'>
         <FaInstagram/>
